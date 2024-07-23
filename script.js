@@ -11,7 +11,7 @@ const fetchapi = async () => {
   
 
     try {
-        const urlAPI = `https://newsapi.org/v2/everything?q=tesla&from=2024-06-22&sortBy=publishedAt&apiKey=${apiKeyc}`;
+        const urlAPI = `https://newsapi.org/v2/everything?q=tesla&from=2024-06-23&sortBy=publishedAt&apiKey=${apiKeyc}`;
         const res = await fetch(urlAPI, {
             headers: {
                 Accept: "application/json"
